@@ -1,0 +1,7 @@
+//@theme "/usr/share/rofi/themes/arthur.rasi"
+configuration {
+  display-drun: "Applications:";
+  drin-display-format: "{icon} {name}";
+  show-icons:true;
+}
+@theme "~/.config/rofi/custom.rasi"
