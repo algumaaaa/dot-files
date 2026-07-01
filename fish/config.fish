@@ -6,6 +6,9 @@ alias taxista='cd /home/helena/Documents/Projects/Godot/taxista/src'
 
 export EDITOR=nvim
 
+set -x QT_IM_MODULE fcitx
+set -x XMODIFIERS @im=fcitx
+
 function y
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")
 	command yazi $argv --cwd-file="$tmp"
